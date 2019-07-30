@@ -2,13 +2,11 @@
 
 
 
-The Potato Processor is a simple RISC-V processor written in VHDL for use in FPGAs. It implements the 32-bit integer subset
-of the RISC-V Specification version 2.0 and supports large parts of the the machine mode specified in the RISC-V Privileged
-Architecture Specification v1.10.
+The RISCV 32I use the Potato which is a simple RISC-V processor written in VHDL.
+It Supports the complete 32-bit RISC-V base integer ISA (RV32I) version 2.0
 
-The processor has been tested on an Arty board using the example SoC design provided in the `example/` directory
-and the applications found in the `software/` directory. Synthesis and implementation has been tested on various versions
-of Xilinx' Vivado toolchain, most recently version 2018.2.
+The Design has been tested on an Zybo board using the[Potato-RISC core](https://github.com/skordal/potato/tree/master/src)
+. Synthesis and implementation has been tested on 'Xilinx' Vivado 2018.3.
 
 ## Features
 
