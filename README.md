@@ -4,12 +4,12 @@
 
 The RISCV 32I use the Potato which is a simple RISC-V processor written in VHDL.
 It Supports the complete 32-bit RISC-V base integer ISA (RV32I) version 2.0
-
-The Design has been tested on an Zybo board using the[Potato-RISC core](https://github.com/skordal/potato/tree/master/src)
+The Design has been tested on an Zybo board using the [Potato-RISC core](https://github.com/skordal/potato/tree/master/src)
 . Synthesis and implementation has been tested on 'Xilinx' Vivado 2018.3.
 
 ## Features
-
+* Send Output to PS UART(baud rate 115200) of Zynq device.
+* Program riscv core from ps side without regenerating bit file.  
 * Supports the complete 32-bit RISC-V base integer ISA (RV32I) version 2.0
 * Supports large parts of the machine mode defined in the RISC-V Privileged Architecture version 1.10
 * Supports up to 8 individually maskable external interrupts (IRQs)
@@ -29,17 +29,9 @@ The main peripherals are:
 
 ## Quick Start/Instantiating
 
-To instantiate the processor, add the source files from the `src/` folder to your project. Use the `pp_potato`
-entity to instantiate a processor with a Wishbone interface. Some generics are provided to configure the processor core.
-
-An example System-on-Chip for the Arty development board can be found in the `example/` directory of the source repository.
-
 ## Compiler Toolchain
 
 To program the processor, you need an appropriate compiler toolchain. Follow the instructions on the
 [RISCV GNU toolchain repository](https://github.com/riscv/riscv-gnu-toolchain) site to build and install a 32-bit RISC-V toolchain.
-
-## Reporting bugs and issues
-
-Bugs and issues related to the Potato processor can be reported on the project's [GitHub page](https://github.com/skordal/potato).
+o processor can be reported on the project's [GitHub page](https://github.com/skordal/potato).
 
