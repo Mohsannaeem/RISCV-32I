@@ -6,7 +6,8 @@ The RISCV 32I use the Potato which is a simple RISC-V processor written in VHDL.
 It Supports the complete 32-bit RISC-V base integer ISA (RV32I) version 2.0
 The Design has been tested on an Zybo board using the [Potato-RISC core](https://github.com/skordal/potato/tree/master/src)
 . Synthesis and implementation has been tested on 'Xilinx' Vivado 2018.3.
-
+##Block Diagram
+https://github.com/Mohsannaeem/RISCV-32I/blob/master/RISCV32I/design_1.pdf
 ## Features
 * Send Output to PS UART(baud rate 115200) of Zynq device.
 * Program riscv core from ps side without regenerating bit file.  
