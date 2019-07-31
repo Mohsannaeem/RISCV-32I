@@ -1,0 +1,41 @@
+vhdl xil_defaultlib  \
+"../../../bd/design_1/ip/design_1_axi_uartlite_0_1/sim/design_1_axi_uartlite_0_1.vhd" \
+"../../../bd/design_1/ip/design_1_axi_uartlite_1_0/sim/design_1_axi_uartlite_1_0.vhd" \
+"../../../bd/design_1/ip/design_1_rst_ps7_0_100M_1/sim/design_1_rst_ps7_0_100M_1.vhd" \
+"../../../bd/design_1/ipshared/61c9/src/pp_types.vhd" \
+"../../../bd/design_1/ipshared/61c9/src/pp_constants.vhd" \
+"../../../bd/design_1/ipshared/61c9/src/pp_utilities.vhd" \
+"../../../bd/design_1/ipshared/61c9/src/aee_rom_wrapper.vhd" \
+"../../../bd/design_1/ipshared/61c9/src/pp_alu.vhd" \
+"../../../bd/design_1/ipshared/61c9/src/pp_alu_control_unit.vhd" \
+"../../../bd/design_1/ipshared/61c9/src/pp_alu_mux.vhd" \
+"../../../bd/design_1/ipshared/61c9/src/pp_comparator.vhd" \
+"../../../bd/design_1/ipshared/61c9/src/pp_csr.vhd" \
+"../../../bd/design_1/ipshared/61c9/src/pp_control_unit.vhd" \
+"../../../bd/design_1/ipshared/61c9/src/pp_counter.vhd" \
+"../../../bd/design_1/ipshared/61c9/src/pp_csr_unit.vhd" \
+"../../../bd/design_1/ipshared/61c9/src/pp_register_file.vhd" \
+"../../../bd/design_1/ipshared/61c9/src/pp_fetch.vhd" \
+"../../../bd/design_1/ipshared/61c9/src/pp_imm_decoder.vhd" \
+"../../../bd/design_1/ipshared/61c9/src/pp_decode.vhd" \
+"../../../bd/design_1/ipshared/61c9/src/pp_csr_alu.vhd" \
+"../../../bd/design_1/ipshared/61c9/src/pp_execute.vhd" \
+"../../../bd/design_1/ipshared/61c9/src/pp_memory.vhd" \
+"../../../bd/design_1/ipshared/61c9/src/pp_writeback.vhd" \
+"../../../bd/design_1/ipshared/61c9/src/pp_core.vhd" \
+"../../../bd/design_1/ipshared/61c9/src/pp_fifo.vhd" \
+"../../../bd/design_1/ipshared/61c9/src/pp_icache.vhd" \
+"../../../bd/design_1/ipshared/61c9/src/pp_wb_adapter.vhd" \
+"../../../bd/design_1/ipshared/61c9/src/pp_wb_arbiter.vhd" \
+"../../../bd/design_1/ipshared/61c9/src/pp_potato.vhd" \
+"../../../bd/design_1/ipshared/61c9/src/pp_soc_gpio.vhd" \
+"../../../bd/design_1/ipshared/61c9/src/pp_soc_intercon.vhd" \
+"../../../bd/design_1/ipshared/61c9/src/pp_soc_memory.vhd" \
+"../../../bd/design_1/ipshared/61c9/src/pp_soc_reset.vhd" \
+"../../../bd/design_1/ipshared/61c9/src/pp_soc_timer.vhd" \
+"../../../bd/design_1/ipshared/61c9/src/pp_soc_uart.vhd" \
+"../../../bd/design_1/ipshared/61c9/src/toplevel.vhd" \
+"../../../bd/design_1/ip/design_1_toplevel_0_2/sim/design_1_toplevel_0_2.vhd" \
+"../../../bd/design_1/ip/design_1_axi_bram_ctrl_0_0/sim/design_1_axi_bram_ctrl_0_0.vhd" \
+
+nosort

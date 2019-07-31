@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER Counter_AXI_Register
+	OPTION supported_peripherals = (Counter_AXI_Register);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = Counter_AXI_Register;
+END DRIVER

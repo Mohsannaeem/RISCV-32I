@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_toplevel_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="pp_constants" />
+            <top_module name="pp_csr" />
+            <top_module name="pp_types" />
+            <top_module name="pp_utilities" />
+            <top_module name="tb_toplevel" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="875000000001fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="136"></NameColumnWidth>
+      <ValueColumnWidth column_width="110"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/tb_toplevel/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_toplevel/reset_n" type="logic">
+      <obj_property name="ElementShortName">reset_n</obj_property>
+      <obj_property name="ObjectShortName">reset_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_toplevel/gpio_pins" type="array">
+      <obj_property name="ElementShortName">gpio_pins[11:0]</obj_property>
+      <obj_property name="ObjectShortName">gpio_pins[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_toplevel/uart0_txd" type="logic">
+      <obj_property name="ElementShortName">uart0_txd</obj_property>
+      <obj_property name="ObjectShortName">uart0_txd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_toplevel/uart0_rxd" type="logic">
+      <obj_property name="ElementShortName">uart0_rxd</obj_property>
+      <obj_property name="ObjectShortName">uart0_rxd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_toplevel/uart1_txd" type="logic">
+      <obj_property name="ElementShortName">uart1_txd</obj_property>
+      <obj_property name="ObjectShortName">uart1_txd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_toplevel/uart1_rxd" type="logic">
+      <obj_property name="ElementShortName">uart1_rxd</obj_property>
+      <obj_property name="ObjectShortName">uart1_rxd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_toplevel/clk_period" type="other">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_toplevel/uut/system_clk" type="logic">
+      <obj_property name="ElementShortName">system_clk</obj_property>
+      <obj_property name="ObjectShortName">system_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_toplevel/uut/timer_clk" type="logic">
+      <obj_property name="ElementShortName">timer_clk</obj_property>
+      <obj_property name="ObjectShortName">timer_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_toplevel/uut/system_clk_locked" type="logic">
+      <obj_property name="ElementShortName">system_clk_locked</obj_property>
+      <obj_property name="ObjectShortName">system_clk_locked</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_toplevel/uut/processor_dat_out" type="array">
+      <obj_property name="ElementShortName">processor_dat_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">processor_dat_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_toplevel/uut/processor_adr_out" type="array">
+      <obj_property name="ElementShortName">processor_adr_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">processor_adr_out[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_toplevel/uut/processor_dat_in" type="array">
+      <obj_property name="ElementShortName">processor_dat_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">processor_dat_in[31:0]</obj_property>
+   </wvobject>
+</wave_config>
